@@ -17,6 +17,6 @@ client.on('messageCreate', (message) => {
     if (message.content.includes('has created a new ticket')) {
         message.reply('pong');
     }
-})
+});
 
-client.login("MTI1NDQzMTU5MDY4ODQ5MzY5MA.GLB0VW.GWFNBBh1WIzl_1mFU8KOG4hD52if3TLSFbWYg4")
+client.login("process.env.BOT_TOKEN")
